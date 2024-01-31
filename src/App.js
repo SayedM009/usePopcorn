@@ -1,5 +1,5 @@
 import Rating from "./Rating"
-// import Countries from "./Country"
+import {Navbar, Logo, SearchBar, MoviesResultCount} from "./Navbar"
 import { useEffect, useState } from "react"
 
 
@@ -37,23 +37,9 @@ export default function App() {
   </> 
 }
 
-function Navbar({children}) {
-  return <nav className="nav-bar">
-    {children}
-  </nav>
-}
 
-function Logo() {
-  return <h2 className="logo"><span>🍿</span>usePopCorn</h2>
-}
 
-function MoviesResultCount({moviesLength}) {
-  return <p>Found {moviesLength} results</p>
-}
 
-function SearchBar({movieName,  onSetMovieName}) {
-  return <input type="search" placeholder="Search movies..." value={movieName} onChange={(e) => onSetMovieName(e.target.value)}></input>
-}
 
 function MoviesListAndMoviesSummaryBox({movieName, setMovies, children, setLoading, setError}) {
   useEffect(function() {
