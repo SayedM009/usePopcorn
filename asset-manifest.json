@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SayedM009/usePopcorn/static/css/main.0822cd69.css",
+    "main.js": "/SayedM009/usePopcorn/static/js/main.2ba79507.js",
+    "index.html": "/SayedM009/usePopcorn/index.html",
+    "main.0822cd69.css.map": "/SayedM009/usePopcorn/static/css/main.0822cd69.css.map",
+    "main.2ba79507.js.map": "/SayedM009/usePopcorn/static/js/main.2ba79507.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0822cd69.css",
+    "static/js/main.2ba79507.js"
+  ]
+}
