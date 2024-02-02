@@ -258,8 +258,7 @@ input[type="search"] {
 }
 
 .movie.to-watch {
-  /* position: relative;
-  top:15% */
+  position: relative;
 }
 @media (max-width:767px) {
   .movie.to-watch {
